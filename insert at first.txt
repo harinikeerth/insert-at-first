@@ -1,0 +1,23 @@
+import java.util.LinkedList;
+
+public class InsertAtFirst {
+    public static void main(String[] args) {
+        // Create a LinkedList
+        LinkedList<Integer> list = new LinkedList<>();
+
+        // Add some elements to the list
+        list.add(10);
+        list.add(20);
+        list.add(30);
+
+        // Display the original list
+        System.out.println("Original list: " + list);
+
+        // Insert a value at the first position
+        int valueToInsert = 5;
+        list.addFirst(valueToInsert);
+
+        // Display the list after insertion
+        System.out.println("List after inserting " + valueToInsert + " at the first position: " + list);
+    }
+}
